@@ -23,7 +23,7 @@ image: https://velog.velcdn.com/images/dongchyeon/post/1d3fab91-b389-413e-ad5c-e
 
 ## TCP의 연결 시작 (3-way handshaking)
 
-![](https://velog.velcdn.com/images/dongchyeon/post/1d3fab91-b389-413e-ad5c-e0fb6787a65b/image.jpg)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/1d3fab91-b389-413e-ad5c-e0fb6787a65b/image.jpg" width="100%">
 
 1. 클라이언트가 서버에게 SYN 패킷을 전송해 연결을 요청한다.
 2. 서버는 SYN 패킷을 받았다는 것을 확인하고, SYN + ACK 패킷을 클라이언트에 전송해 연결을 수락한다.

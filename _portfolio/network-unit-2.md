@@ -9,7 +9,7 @@ title: 컴퓨터 네트워크 2단원
 subtitle: 응용 계층
 image: https://velog.velcdn.com/images/dongchyeon/post/153771cc-610c-4ebd-b451-16ba20f8cb05/image.png #main image, can be a link or a file in assets/img/portfolio
 ---
-![](https://velog.velcdn.com/images/dongchyeon/post/153771cc-610c-4ebd-b451-16ba20f8cb05/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/153771cc-610c-4ebd-b451-16ba20f8cb05/image.png" width="100%">
 
 ## 1. Web Application 개발 언어
 

@@ -85,7 +85,7 @@ image: https://velog.velcdn.com/images/dongchyeon/post/933d1758-bdc6-4d1c-bd85-f
 
 `벨만-포드(Bellman-Ford) 식`
 
-![](https://velog.velcdn.com/images/dongchyeon/post/a5fbe652-512d-4381-a89d-78f136a4acec/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/a5fbe652-512d-4381-a89d-78f136a4acec/image.png" width="100%">
 
 거리 벡터 라우팅 알고리즘의 기본 아이디어는 다음과 같다.
 
@@ -170,7 +170,7 @@ AS 내 영역 간 라우팅을 위해서는,
 
 통신하는 AS들은 같은 AS 간 라우팅 프로토콜을 수행해야만 하며 실제로 인터넷의 모든 AS는 `경계 게이트웨이 프로토콜(Border Gateway Protocol, BGP)`을 사용한다.
 
-![](https://velog.velcdn.com/images/dongchyeon/post/1655bf52-011b-4977-a43d-1732d9bf2584/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/1655bf52-011b-4977-a43d-1732d9bf2584/image.png" width="100%">
 
 각 AS에서 각각의 라우터들은 `게이트웨이 라우터(gateway router)` 또는 `내부 라우터(internal router)`다.
 
@@ -197,7 +197,7 @@ AS 내 영역 간 라우팅을 위해서는,
 
 ### BGP 경로 정보 알리기
 
-![](https://velog.velcdn.com/images/dongchyeon/post/49e5786a-0aff-443b-9916-a47186d0d886/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/49e5786a-0aff-443b-9916-a47186d0d886/image.png" width="100%">
 
 위 예시에서 `x`에 대한 경로 정보를 AS1과 AS2의 모든 라우터에 알리는 작업을 생각해보자.
 
@@ -229,7 +229,7 @@ NEXT-HOP
 
 W, X, Y는 `사용자 접속 ISP`이고 A, B, C,는 `백본 제공자 네트워크`다.
 
-![](https://velog.velcdn.com/images/dongchyeon/post/fc8ff2c4-4679-45ba-8037-85bff41e31d9/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/fc8ff2c4-4679-45ba-8037-85bff41e31d9/image.png" width="100%">
 
 ISP가 오직 그들의 사용자 네트워크에만 트래픽을 전달하길 원한다고 가정해보자.
 
@@ -255,7 +255,7 @@ ISP가 오직 그들의 사용자 네트워크에만 트래픽을 전달하길 �
 
 ### SDN 구조
 
-![](https://velog.velcdn.com/images/dongchyeon/post/768c0ee7-145f-4ef6-b5f3-ac5025fcb605/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/768c0ee7-145f-4ef6-b5f3-ac5025fcb605/image.png" width="100%">
 
 `Network-control apps`
 * 하위 수준 서비스 및 SDN 컨트롤러가 제공하는 API를 사용하여 제어 기능 구현
@@ -293,7 +293,7 @@ SDN으로 제어되는 스위치에서 컨트롤러로 전달되는 주요 메�
 
 ### OpenDaylight (ODL) controller
 
-![](https://velog.velcdn.com/images/dongchyeon/post/b5f4fecc-0cd1-4f99-af27-9f6576434e6b/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/b5f4fecc-0cd1-4f99-af27-9f6576434e6b/image.png" width="100%">
 
 * ODL의 기본 네트워크 서비스 기능들을 컨트롤러의 핵심부에 있다.
 * `서비스 추상 계층(Service Abstraction Layer)`

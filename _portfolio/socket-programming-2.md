@@ -407,12 +407,12 @@ Client에 대한 내용은 이전 포스트의 내용과 같으므로 생략하�
 방화벽의 고급 설정에 들어가 인바운드 규칙과 아웃바운드 규칙에 소켓을 연 포트에 대한 접근을 허용시키면 된다.
 해당 코드에서는 3000 포트를 사용하고 있으므로 3000 포트에 대한 접근을 허용했다.
 
-![](https://velog.velcdn.com/images/dongchyeon/post/0449c815-3ab8-40bb-a636-2bf5a77f5a8c/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/0449c815-3ab8-40bb-a636-2bf5a77f5a8c/image.png" width="100%">
 
 서로 다른 컴퓨터에서도 무사히 돌아가는 것을 확인할 수 있다.
 
 ## 실행 결과
 
-![](https://velog.velcdn.com/images/dongchyeon/post/3f576129-0283-4072-9edc-f8c9e68710bf/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/3f576129-0283-4072-9edc-f8c9e68710bf/image.png" width="100%">
 
 `w: 도메인 네임 IP 주소`를 통한 DNS 아이템 삽입, 도메인 네임을 통한 IP 주소 조회, IP 주소를 통한 도메인 네임 조회 모두 정상적으로 이루어지는 것을 확인할 수 있다.

@@ -27,7 +27,7 @@ image: https://velog.velcdn.com/images/dongchyeon/post/79bef008-235f-43ae-b7b0-1
 
 ### 포워딩 테이블
 
-![](https://velog.velcdn.com/images/dongchyeon/post/79bef008-235f-43ae-b7b0-1244bad2f892/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/79bef008-235f-43ae-b7b0-1244bad2f892/image.png" width="100%">
 
 라우터가 도착하는 패킷 헤더의 필드값을 포워딩 테이블의 내부 색인으로 사용하여 패킷을 전달
 
@@ -38,7 +38,7 @@ image: https://velog.velcdn.com/images/dongchyeon/post/79bef008-235f-43ae-b7b0-1
 
 ### Data plane: SDN 접근 방법
 
-![](https://velog.velcdn.com/images/dongchyeon/post/4e3b25da-cbef-4c1a-8733-2b077044ed9e/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/4e3b25da-cbef-4c1a-8733-2b077044ed9e/image.png" width="100%">
 
 라우터로부터 물리적으로 분리된 원격 컨트롤러 컴퓨터와 각각의 라우터에 의해 사용될 포워딩 테이블을 분배
 
@@ -218,7 +218,7 @@ FIFO 스케줄링은 출력 링크 큐에 도착한 순서와 동일한 순서�
 
 네트워크는 링크는 MTU(Max Transfer Size)를 가진다. 링크 계층 프로토콜마다 다른 링크 타입과 MTU를 가지므로 네트워크는 큰 IP datagram을 분할할 필요성이 있다. 쪼개진 datagram을 최종 목적지에서 재결합(reassemly)된다. IP 헤더를 통해 본래 하나의 datagram이었는지 구분하고 순서를 확인한다.
 
-![](https://velog.velcdn.com/images/dongchyeon/post/044324b5-20d2-4e51-94c1-678b49e1482b/image.jpg)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/044324b5-20d2-4e51-94c1-678b49e1482b/image.jpg" width="100%">
 
 ### IPv4 주소체계
 
@@ -247,7 +247,7 @@ IP 주소체계는 이 서브넷에 `223.1.1.0/24`라는 주소를 할당하는�
 
 인터넷 주소 할당 방식 중 하나로 주소 형식은 a.b.c.d/x이며, 여기서 x는 서브넷 부분의 비트 수를 의미한다.
 
-![](https://velog.velcdn.com/images/dongchyeon/post/96ecba77-d87a-4ca1-99f8-f868a0a29bd4/image.jpg)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/96ecba77-d87a-4ca1-99f8-f868a0a29bd4/image.jpg" width="100%">
 
 ### 클래스 주소 체계
 
@@ -318,4 +318,4 @@ IPv6는 IPv4 데이터그램을 보내고 라우팅하여 받을 수 있는 새 
 
 `터널링` : IPv4 라우터 간에 IPv6 데이터그램을 운반하기 위해 IPv4의 payload에 넣는 것
 
-![](https://velog.velcdn.com/images/dongchyeon/post/03fde439-a3db-4eac-84ad-bff9a9095dee/image.jpg)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/03fde439-a3db-4eac-84ad-bff9a9095dee/image.jpg" width="100%">

@@ -130,8 +130,7 @@ d 비트들을 k 비트 정수처럼 다루어 이 k비트 정수들을 더해�
 
 > R = 나머지 x [D x 2^r / G]
 
-
-![](https://velog.velcdn.com/images/dongchyeon/post/34b8e138-b78f-4bef-9f0d-15a35f9723ab/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/34b8e138-b78f-4bef-9f0d-15a35f9723ab/image.png" width="100%">
 
 ## 다중 접속 링크와 프로토콜
 
@@ -220,13 +219,13 @@ CDMA는 다른 코드를 각 노드에게 할당한다.
 * 각 노드는 프레임이 생성되면, 랜덤하게 각자 알아서 전송을 시작한다.
 * 충돌이 발생하면 재전송한다. (이 때, 충돌 감지는 일정시간까지 에코가 오지 않을 때로 판단한다.)
 
-![](https://velog.velcdn.com/images/dongchyeon/post/bb8ae802-b4e2-47ed-bae0-bf3d8a8d4b77/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/bb8ae802-b4e2-47ed-bae0-bf3d8a8d4b77/image.png" width="100%">
 
 프레임 i가 보내진 t0 전후에 보내진 다른 프레임이 있다면 충돌이 발생한다.
 
 #### 슬롯 알로하 (slotted ALOHA)
 
-![](https://velog.velcdn.com/images/dongchyeon/post/e45b5363-3799-4d30-aea1-1ce31c0408b0/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/e45b5363-3799-4d30-aea1-1ce31c0408b0/image.png" width="100%">
 
 1. 전송할 새 프레임이 있으면 다음 슬롯이 시작할 때까지 기다렸다가 그 슬롯에 전체 프레임을 전송한다.
 2. 만약, 충돌하지 않으면 노드는 성공적으로 자신의 프레임을 전송한 것이다. 따라서 그 프레임을 재전송할 필요가 없다.
@@ -254,6 +253,7 @@ CSMA는 보내기 전에 다음 사항을 확인한다.
 * 채널이 사용 중인 것으로 감지되면, 전송을 연기한다.
 
 #### CSMA에서 충돌이 발생하는 경우
+
 
 ![](https://velog.velcdn.com/images/dongchyeon/post/8aeaa135-0d12-481f-a935-c5dc821f5338/image.png)
 
@@ -316,7 +316,7 @@ B의 MAC 주소는 A의 ARP table에 존재하지 않는다.
 
 #### 서브넷에 없는 노드로의 데이터그램 전송
 
-![](https://velog.velcdn.com/images/dongchyeon/post/34311502-04c3-48b9-a852-260b1e20fc30/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/34311502-04c3-48b9-a852-260b1e20fc30/image.png" width="100%">
 
 위 그림에서 호스트 `111.111.111.111`이 호스트 `222.222.222.222`로 IP 데이터그램을 전송하려한다고 가정하자.
 라우터는 2개의 IP 주소, 2개의 ARP 모듈, 2개의 어댑터를 가지고 있다.
@@ -341,7 +341,7 @@ A를 `111,111,111,111`, B를 `111.111.111.110`, R을 라우터라고 가정하�
 
 ### 이더넷 프레임 구조
 
-![](https://velog.velcdn.com/images/dongchyeon/post/28059b62-2fad-481f-84ef-40193bb33599/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/28059b62-2fad-481f-84ef-40193bb33599/image.png" width="100%">
 
 * 데이터 필드(46~1500 바이트)
   - 이 필드는 IP 데이터그램을 운반한다.
@@ -426,7 +426,7 @@ UDP의 경우 알 수 없고, TCP는 확인 후 재전송하게 할 것이다.
 
 ## 총정리 : 웹페이지 요청에 대한 처리
 
-![](https://velog.velcdn.com/images/dongchyeon/post/39c9ca3a-f28b-41b0-b471-7c3abfb27abc/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/39c9ca3a-f28b-41b0-b471-7c3abfb27abc/image.png" width="100%">
 
 Bob이 학교의 이더넷 스위치에 랩탑을 연결하고 `www.google.com`을 다운로드하는 과정을 보자.
 

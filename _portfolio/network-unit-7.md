@@ -12,7 +12,7 @@ image: https://velog.velcdn.com/images/dongchyeon/post/1029a2e8-6a96-4fde-a92d-2
 
 ## 무선 네트워크의 요소
 
-![](https://velog.velcdn.com/images/dongchyeon/post/1029a2e8-6a96-4fde-a92d-2dbe730ba9a7/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/1029a2e8-6a96-4fde-a92d-2dbe730ba9a7/image.png" width="100%">
 
 ### 무선 호스트
 
@@ -135,8 +135,7 @@ image: https://velog.velcdn.com/images/dongchyeon/post/1029a2e8-6a96-4fde-a92d-2
 
 다음은 802.11 무선 랜 구조의 핵심적인 구성요소를 보여준다.
 
-![](https://velog.velcdn.com/images/dongchyeon/post/32b71c4d-0a8c-44ae-8b41-52ae96cd1352/image.png)
-
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/32b71c4d-0a8c-44ae-8b41-52ae96cd1352/image.png" width="100%">
 
 ### BSS (Basic Service Set)
 * 802.11 구조의 가장 근본적인 구성 단위
@@ -165,7 +164,7 @@ image: https://velog.velcdn.com/images/dongchyeon/post/1029a2e8-6a96-4fde-a92d-2
 
 `수동적 스캐닝(passive scanning)` : 비콘 프레임의 수신을 통해 채널을 찾는 과정
 
-![](https://velog.velcdn.com/images/dongchyeon/post/e9a86e83-0ad4-406e-9ce9-f0c52143a154/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/e9a86e83-0ad4-406e-9ce9-f0c52143a154/image.png" width="100%">
 
 1. AP들로부터 비콘 프레임이 전송된다.
 2. H1에서 선택된 AP로부터 결합 요청 메시지를 전송한다.
@@ -173,7 +172,7 @@ image: https://velog.velcdn.com/images/dongchyeon/post/1029a2e8-6a96-4fde-a92d-2
 
 `능동적 스캐닝(active scanning)` : 무선 스테이션이 영역 안에 있는 AP들에게 탐사용 프로브(probe) 프레임을 방송하는 방식
 
-![](https://velog.velcdn.com/images/dongchyeon/post/5a9ccc0d-ac6c-49c3-afa8-0c3c74c2016d/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/5a9ccc0d-ac6c-49c3-afa8-0c3c74c2016d/image.png" width="100%">
 
 1. `탐사용 프로브 프레임`이 H1으로부터 방송된다.
 2. AP들로부터 `프로브 응답 메시지`가 도착한다.
@@ -203,7 +202,7 @@ BER이 너무 높아지면 전송 속도를 낮추되, 그에 따라 BER에 낮�
 ### 링크 계층 ACK(Link-Layer Acknowledgement)
 무선 랜에서 송신 스테이션이 전송한 프레임은 여러 가지 이유로(숨은 터미널 문제, 신호감쇠 등)으로 목적지 스테이션에 제대로 도달하지 못할 수 있으며, 이를 해결하기 위해 `링크 계층 ACK(Link-Layer Acknowledgement)`를 사용한다.
 
-![](https://velog.velcdn.com/images/dongchyeon/post/3cbeff3b-7575-4da9-b93b-e9391725add2/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/3cbeff3b-7575-4da9-b93b-e9391725add2/image.png" width="100%">
 
 1. 목적지 스테이션은 CRC 검사를 통과한 프레임을 수신하면 `SIFS`라는 짧은 시간을 기다린 후에 `ACK 프레임`을 송신 스테이션에게 보낸다.
 2. (1) 만약 송신 스테이션이 주어진 시간 동안에 ACK를 수신하지 못하면, 송신 스테이션은 오류가 발생했다고 가정한다.
@@ -215,7 +214,7 @@ BER이 너무 높아지면 전송 속도를 낮추되, 그에 따라 BER에 낮�
 
 **숨은 터미널 문제**
 
-![](https://velog.velcdn.com/images/dongchyeon/post/a56e1d91-aa09-4850-b541-b4efbe7a6f16/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/a56e1d91-aa09-4850-b541-b4efbe7a6f16/image.png" width="100%">
 
 위 그림에서 스테이션 H1이 프레임을 AP로 전송하고 있고, H1이 전송하는 도중에 스테이션 H2가 AP로의 전송을 원한다고 가정하자.
 
@@ -239,7 +238,7 @@ H1의 전송을 듣지 못한 H2는 임의의 시간(DIFS)를 기다린 후에 D
 
 이때, DIFS(Distributed Inter-Frame Sapce)가 SIFS(Short Inter-Frame Space) 보다 크기 때문에 ACK 메시지를 방해하지 않는다.
 
-![](https://velog.velcdn.com/images/dongchyeon/post/646be6d3-a14d-481f-919e-20757ecd0ef8/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/646be6d3-a14d-481f-919e-20757ecd0ef8/image.png" width="100%">
 
 ### 숨은 터미널 해결방안: RTS와 CTS
 
@@ -270,7 +269,7 @@ H1의 전송을 듣지 못한 H2는 임의의 시간(DIFS)를 기다린 후에 D
 무선 랜의 물리적 영역을 증가시키기 위해 동일한 IP 서브넷에 여러 개의 BSS를 설치하기도 한다.
 따라서 무선 스테이션이 기존 TCP 세션을 유지한 채로 어떻게 한 BSS에서 다른 BSS로 매끄럽게 이동할 수 있는가 하는 이동성 문제가 발생한다.
 
-![](https://velog.velcdn.com/images/dongchyeon/post/ff2a8f93-9929-4848-879a-cf15721d3e9a/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/ff2a8f93-9929-4848-879a-cf15721d3e9a/image.png" width="100%">
 
 위 그림에서 두 BSS를 연결하는 장치는 라우터가 아니며, 두 BSS에 있는 AP를 포함한 모든 기지국은 동일한 IP 서브넷에 속한다.
 따라서 호스트 H1이 BSS1에서 BSS2로 이동할 때 H1의 IP 주소는 동일하게 유지되며, 현재 진행 중인 TCP 연결도 유지될 수 있다.
@@ -313,7 +312,7 @@ H1의 전송을 듣지 못한 H2는 임의의 시간(DIFS)를 기다린 후에 D
 
 ### 네트워크 계층의 관점에서 본 다양한 이동성 스펙트럼
 
-![](https://velog.velcdn.com/images/dongchyeon/post/4aef9549-d6f0-4723-b37a-795dfaf52f0f/image.png)
+<img src = "https://velog.velcdn.com/images/dongchyeon/post/4aef9549-d6f0-4723-b37a-795dfaf52f0f/image.png" width="100%">
 
 ### 용어
 
