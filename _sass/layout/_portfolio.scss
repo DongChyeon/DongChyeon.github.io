@@ -51,8 +51,8 @@
         text-transform: none;
       }
       p {
-        font-size: 16px;
-        font-style: italic;
+        font-size: 18px;
+        font-style: bold;
         margin: 0;
         @include serif-font;
       }
@@ -77,9 +77,13 @@
   }
   .modal-content {
     padding: 100px 0;
-    text-align: center;
-    h2 {
+    text-align: start;
+    h1,
+    h2,
+    h3,
+    h4 {
       font-size: 3em;
+      margin-top: 15px;
       margin-bottom: 15px;
     }
     p {
@@ -96,7 +100,8 @@
       margin-bottom: 30px;
     }
     img {
-      margin-bottom: 30px;
+      margin-left: auto;
+      margin-right: auto;
     }
     button {
       cursor: pointer;
