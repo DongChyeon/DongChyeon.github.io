@@ -19,7 +19,9 @@ a {
   color: $primary !important;
 }
 
-
+th, tr, td {
+  border: 1px solid black;
+}
 
 h1,
 h2,
