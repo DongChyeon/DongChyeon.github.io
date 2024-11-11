@@ -93,41 +93,30 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "팀 소개"
+    text: "저희 팀의 이름은 Paw(발바닥) + Perfect 를 합성한 Pawfect 입니다!"
+    subtext: "각 팀원 하단의 버튼을 클릭해서 자기소개 페이지로 접근할 수 있습니다!"
+    introduction: 저희 팀 "Pawpect"는 반려동물을 좋아하는 사람들이라면 누구나 이용할 수 있는 SNS 플랫폼을 만드는 팀입니다. 우리 팀은 플랫폼을 통해 귀여운 사진, 반려동물 돌봄 정보, 특별한 순간을 공유하며, 반려동물 주인들이 함께 소통하고 교류할 수 있는 완벽한 공간을 제공합니다. 더 나아가 반려동물이 아프거나 할 때 의학적인 부분까지 수의사분들을 통해 들을 수 있는 Pawpect에서 당신의 소중한 반려동물과의 추억을 만들어볼 수 있습니다!
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+      - name: "황정현"
+        role: "소프트웨어학과 20학번"
+        image: https://static.wixstatic.com/media/395cc2_28db65ee4b634ce09fadc8b2b9c108bd~mv2.jpg/v1/fill/w_588,h_732,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/395cc2_28db65ee4b634ce09fadc8b2b9c108bd~mv2.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
+          - url: https://hch032325.wixsite.com/my-site/about
+            icon: fab fa-blogger
+      - name: "최현경"
+        role: "소프트웨어학과 22학번"
+        image: https://static.wixstatic.com/media/395cc2_6dad6837a27248f8a5a903404d8f95e0~mv2.webp/v1/fill/w_530,h_660,al_c,lg_1,q_80,enc_auto/395cc2_6dad6837a27248f8a5a903404d8f95e0~mv2.webp
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
+          - url: https://gchk09057.wixsite.com/developer/post/self-introduce
+            icon: fab fa-blogger
+      - name: "김동현"
+        role: "소프트웨어학과 19학번"
+        image: https://static.wixstatic.com/media/395cc2_8eecb631779d4cf0845a51d4bac33ec5~mv2.gif
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+          - url: https://dongchyeon.github.io/
+            icon: fab fa-blogger
 
   contact:
     title: "Contact Us"

@@ -11,10 +11,12 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Portfolio"
-      section: portfolio
     - title: "About"
       section: about
+    - title: "Team"
+      section: team
+    - title: "Portfolio"
+      section: portfolio
 en-US:
   <<: *DEFAULT_EN
 en-CA:
